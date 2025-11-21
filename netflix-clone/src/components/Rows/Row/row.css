@@ -1,0 +1,91 @@
+/* BASE */
+.row {
+  margin-left: 20px;
+  color: white;
+  position: relative; /* allows buttons to overlay */
+}
+
+.row h2 {
+  margin-left: 20px;
+}
+
+/* NORMAL ROWS — manual scroll */
+.row__posters {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px;
+  gap: 12px;
+  scroll-behavior: smooth;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+/* POSTER STYLE */
+.row__poster {
+  object-fit: contain;
+  max-height: 120px;
+  width: auto;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+
+/* LARGE POSTERS */
+.row__posterLarge {
+  max-height: 250px;
+  width: auto;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
+
+/* LARGE ROW — manual scroll instead of marquee */
+.row__posters--liveflow {
+  display: flex;
+  gap: 12px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.row__posters--liveflow::-webkit-scrollbar {
+  display: none;
+}
+
+/* SCROLL BUTTONS */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  font-size: 28px;
+  padding: 20px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 40;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.scroll-btn:hover {
+  opacity: 1;
+}
+
+.scroll-btn.left {
+  left: 5px;
+}
+
+.scroll-btn.right {
+  right: 5px;
+}
