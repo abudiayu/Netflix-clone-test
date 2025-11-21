@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/new-NETFLIX/static/css/main.39a6bf57.css",
+    "main.js": "/new-NETFLIX/static/js/main.46fdc394.js",
+    "static/js/453.c10d28cd.chunk.js": "/new-NETFLIX/static/js/453.c10d28cd.chunk.js",
+    "static/media/netflix-image.png": "/new-NETFLIX/static/media/netflix-image.4d2de70179246bebee59.png",
+    "index.html": "/new-NETFLIX/index.html",
+    "main.39a6bf57.css.map": "/new-NETFLIX/static/css/main.39a6bf57.css.map",
+    "main.46fdc394.js.map": "/new-NETFLIX/static/js/main.46fdc394.js.map",
+    "453.c10d28cd.chunk.js.map": "/new-NETFLIX/static/js/453.c10d28cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39a6bf57.css",
+    "static/js/main.46fdc394.js"
+  ]
+}
